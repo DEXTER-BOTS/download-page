@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: translateY(-10px);
+        }
+        .btn-custom {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 15px 0;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .btn-apk {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+        .btn-apk:hover {
+            background-color: #0056b3;
+            box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+        }
+        .btn-youtube {
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        .btn-youtube:hover {
+            background-color: #cc0000;
+            box-shadow: 0 8px 15px rgba(255, 0, 0, 0.3);
+        }
+        .header {
+            font-size: 32px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-in-out;
+        }
+        .description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h3 class="header">DOWNLOAD 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 ᴵᴰ  APPLICATION</h3>
+    <h4 class="description">Click the button Download apk</h4>
+    <a href="https://github.com/DEXTER-BOTS/TUTORIAL-DEXTER/raw/main/Download%20Apk/%F0%9D%97%96%F0%9D%97%A2%F0%9D%97%A1%F0%9D%97%A7%F0%9D%97%94%F0%9D%97%96%F0%9D%97%A7%20%C9%AA%E1%B4%85.apk" class="btn btn-custom btn-apk">DOWNLOAD APK</a>
+    <p class="description">Watch the tutorial on our YouTube channel:</p>
+    <a href="https://youtube.com/@dextertoola999?si=BVJJtLq4fi9UG9NV" class="btn btn-custom btn-youtube">Watch on YouTube</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
